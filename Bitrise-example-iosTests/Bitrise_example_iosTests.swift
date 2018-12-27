@@ -11,6 +11,24 @@ import XCTest
 
 class Bitrise_example_iosTests: XCTestCase {
 
+    let A = 10, B = 5
+
+    func testAdd() {
+        XCTAssertEqual(A + B, 15)
+    }
+
+    func testSubtract() {
+        XCTAssertEqual(A - B, 5)
+    }
+
+    func testMultiply() {
+        XCTAssertEqual(A * B, 50)
+    }
+
+    func testDivide() {
+        XCTAssertEqual(A / B, 2)
+    }
+
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
